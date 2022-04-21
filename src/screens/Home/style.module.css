@@ -1,0 +1,18 @@
+.heroImg{
+    margin: auto;
+}
+
+.buttonExplore{
+    background-color: #FFBE55;
+    padding: .25rem;
+    border-radius: 100%;
+    margin-left: .25rem;
+}
+
+.buttonExplore:hover{
+    background-color: #EAA94B;
+}
+
+.link:hover{
+    color: white;
+}

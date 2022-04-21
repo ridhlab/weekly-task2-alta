@@ -12,6 +12,11 @@ const theme = extendTheme({
         initialColorMode: "light",
         useSystemColorMode: false,
     },
+    colors: {
+        primary: "#ED64A6",
+        oppositePrimary: "#4B0082",
+        secondary: "#FFBE55",
+    },
 });
 
 export default theme;

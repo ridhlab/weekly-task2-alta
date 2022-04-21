@@ -2,11 +2,16 @@ import styles from "./NavItems.module.css";
 import { ListItem, Text } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 
-const NavItems = ({ text, path }) => {
+const NavItems = ({ text, path, pb, isHbgActive, windowWidth }) => {
     return (
-        <ListItem mx={2}>
-            <NavLink to={path} className={({ isActive }) => isActive && styles.linkActive}>
-                <Text _hover={{ color: "#4b0082" }}>{text}</Text>
+        <ListItem mx={2} pb={pb} textAlign="center">
+            <NavLink
+                to={path}
+                className={({ isActive }) => (isActive && !isHbgActive ? styles.linkActive : isActive && isHbgActive ? styles.linkActiveHbg : "")}
+            >
+                <Text display="inline" _hover={{ color: windowWidth < 480 ? "primary" : "oppositePrimary" }}>
+                    {text}
+                </Text>
             </NavLink>
         </ListItem>
     );
