@@ -1,7 +1,4 @@
-import { useState } from "react";
-import styles from "./style.module.css";
-import { Box, Flex, Heading, Text } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { Box } from "@chakra-ui/react";
 import CardSection from "../../Components/CardSection";
 /* Data Summary */
 import summaries from "../../data/summary";

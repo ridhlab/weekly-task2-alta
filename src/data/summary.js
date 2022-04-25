@@ -2,6 +2,10 @@ const summaries = [
     {
         id: 1,
         title: "Introduction React",
+        task: {
+            link: "https://github.com/ridlwan17/task-introduction-react-alta",
+            screenshot: "/ss-task/introduction-react.png",
+        },
         points: [
             {
                 id: 1,
@@ -39,6 +43,10 @@ const summaries = [
     {
         id: 2,
         title: "React Fundamental",
+        task: {
+            link: "https://github.com/ridlwan17/task-todo-react-alta",
+            screenshot: "/ss-task/react-fundamental.png",
+        },
         points: [
             {
                 id: 1,
@@ -63,6 +71,10 @@ const summaries = [
     {
         id: 3,
         title: "React Routing",
+        task: {
+            link: "https://github.com/ridlwan17/task-react-routing-alta",
+            screenshot: "",
+        },
         points: [
             {
                 id: 1,
@@ -81,6 +93,10 @@ const summaries = [
     {
         id: 4,
         title: "Event Handling",
+        task: {
+            link: "https://github.com/ridlwan17/task-event-handling-alta",
+            screenshot: "",
+        },
         points: [
             {
                 id: 1,
@@ -104,6 +120,10 @@ const summaries = [
     {
         id: 5,
         title: "React Hooks",
+        task: {
+            link: "https://github.com/ridlwan17/task-react-hooks-alta",
+            screenshot: "",
+        },
         points: [
             {
                 id: 1,
@@ -127,6 +147,10 @@ const summaries = [
     {
         id: 6,
         title: "React Form",
+        task: {
+            link: "https://github.com/ridlwan17/task-react-form-alta",
+            screenshot: "",
+        },
         points: [
             {
                 id: 1,
@@ -145,6 +169,10 @@ const summaries = [
     {
         id: 7,
         title: "Global State Management",
+        task: {
+            link: "https://github.com/ridlwan17/task-global-state-management-alta",
+            screenshot: "",
+        },
         points: [
             {
                 id: 1,
@@ -192,6 +220,10 @@ const summaries = [
     {
         id: 8,
         title: "Testing",
+        task: {
+            link: "https://github.com/ridlwan17/task-testing-alta",
+            screenshot: "",
+        },
         points: [
             {
                 id: 1,
@@ -238,6 +270,10 @@ const summaries = [
     {
         id: 9,
         title: "Deployment",
+        task: {
+            link: "https://task-deploy-moh-ridwan.netlify.app/",
+            screenshot: "",
+        },
         points: [
             {
                 id: 1,

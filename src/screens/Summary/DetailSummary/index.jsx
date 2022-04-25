@@ -1,12 +1,11 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import styles from "./style.module.css";
+import { Box, Text } from "@chakra-ui/react";
+import { Link, useLocation } from "react-router-dom";
 import BackNav from "../../../Components/BackNav";
 
 const DetailSummary = () => {
     const { summary } = useLocation().state;
-    const { id: sectionId, title, points } = summary;
-
-    const navigate = useNavigate();
+    const { id: sectionId, title, points, task } = summary;
 
     return (
         <Box py={4}>
@@ -18,6 +17,13 @@ const DetailSummary = () => {
             <Box>
                 <Text fontWeight={500} fontSize={28} my={4}>
                     Summary Section {sectionId} - {title}
+                </Text>
+                <Text>
+                    Click{" "}
+                    <a href={task.link} target="_blank" rel="noreferrer" className={styles.link}>
+                        here{" "}
+                    </a>
+                    to visit task
                 </Text>
                 {points.map((point, id) => (
                     <Box key={point.id} my={4} p={4} border="1px solid #999" borderRadius={8}>
